@@ -30,16 +30,20 @@ The preprocessing pipeline fits `StandardScaler` on the training features only, 
 
 ## Setup
 
-The notebooks were tested with Python 3.12. Create and activate a virtual environment, then install the dependencies:
+The notebooks were tested with Python 3.12. Create a virtual environment with [uv](https://docs.astral.sh/uv/) and install the dependencies from `requirements.txt`:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install numpy pandas matplotlib seaborn scipy kagglehub imbalanced-learn scikit-learn tensorflow jupyter ipykernel
+uv venv --python 3.12
+uv pip install -r requirements.txt
 ```
 
-On Windows, activate the environment with:
+Activate the environment with:
+
+```bash
+source .venv/bin/activate
+```
+
+On Windows:
 
 ```powershell
 .venv\Scripts\Activate.ps1
