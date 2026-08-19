@@ -1,6 +1,6 @@
 # ML from Scratch
 
-Educational Jupyter notebooks that explain core machine-learning ideas through executable examples.
+Jupyter notebooks that explain core machine-learning ideas through executable examples.
 
 ## Notebooks
 
