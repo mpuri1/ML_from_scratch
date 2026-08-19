@@ -1,0 +1,20 @@
+# Virtual environments
+mlevenv/
+venv/
+.venv/
+
+# Misc / scratch directories
+misc/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local notes
+PR_SUMMARY.md
+
+# OS
+.DS_Store
